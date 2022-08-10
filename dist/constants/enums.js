@@ -1,0 +1,81 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountDropdownItems = exports.LinksAtBottomLeft = exports.AlertSections = exports.placeNames = exports.ScoutAInames = exports.SourceNames = exports.SectorNames = void 0;
+var SectorNames;
+(function (SectorNames) {
+    SectorNames["oilGas"] = "Oil & Gas";
+    SectorNames["basicMaterials"] = "Basic materials";
+    SectorNames["industrials"] = "Industrials";
+    SectorNames["consumerGoods"] = "Consumer Goods";
+    SectorNames["healthCare"] = "Health Care";
+    SectorNames["socialGovernment"] = "Social & Government";
+    SectorNames["consumerServices"] = "Consumer Services";
+    SectorNames["telecommunication"] = "Telecommunication";
+    SectorNames["utilities"] = "Utilities";
+    SectorNames["financials"] = "Financials";
+    SectorNames["technology"] = "Technology";
+    SectorNames["basicResources"] = "Basic Resources";
+    SectorNames["forestryPaper"] = "Forestry & Paper";
+})(SectorNames = exports.SectorNames || (exports.SectorNames = {}));
+var SourceNames;
+(function (SourceNames) {
+    SourceNames["news"] = "News";
+    SourceNames["exchangeFilings"] = "Exchange Filings";
+    SourceNames["opinionAnalysis"] = "Opinion & Analysis";
+    SourceNames["pressReleases"] = "Press Releases";
+    SourceNames["reports"] = "Reports";
+    SourceNames["transcripts"] = "Transcripts";
+    SourceNames["webContent"] = "Web Content";
+})(SourceNames = exports.SourceNames || (exports.SourceNames = {}));
+var ScoutAInames;
+(function (ScoutAInames) {
+    ScoutAInames["blockchain"] = "Blockchain";
+    ScoutAInames["printing3d"] = "3D Printing";
+    ScoutAInames["bri"] = "Belt & Road Initiative";
+})(ScoutAInames = exports.ScoutAInames || (exports.ScoutAInames = {}));
+var placeNames;
+(function (placeNames) {
+    placeNames["BGD"] = "Bangladesh";
+    placeNames["BTN"] = "Bhutan";
+    placeNames["BRN"] = "Brunei";
+    placeNames["KHM"] = "Cambodia";
+    placeNames["CHN"] = "China";
+    placeNames["HKG"] = "Hong Kong";
+    placeNames["IND"] = "India";
+    placeNames["IDN"] = "Indonesia";
+    placeNames["JPN"] = "Japan";
+    placeNames["LAO"] = "Laos";
+    placeNames["MAC"] = "Macau";
+    placeNames["MYS"] = "Malaysia";
+    placeNames["MNG"] = "Mongolia";
+    placeNames["MMR"] = "Myanmar";
+    placeNames["NPL"] = "Nepal";
+    placeNames["PAK"] = "Pakistan";
+    placeNames["PNG"] = "Papua New Guinea";
+    placeNames["PHL"] = "Philippines";
+    placeNames["SGP"] = "Singapore";
+    placeNames["KOR"] = "South Korea";
+    placeNames["LKA"] = "Sri Lanka";
+    placeNames["TWN"] = "Taiwan";
+    placeNames["THA"] = "Thailand";
+    placeNames["VNM"] = "Vietnam";
+})(placeNames = exports.placeNames || (exports.placeNames = {}));
+var AlertSections;
+(function (AlertSections) {
+    AlertSections["scoutAI"] = "Scout AI";
+    AlertSections["savedSearches"] = "Saved Searches";
+    AlertSections["targetLists"] = "Target Lists";
+})(AlertSections = exports.AlertSections || (exports.AlertSections = {}));
+var LinksAtBottomLeft;
+(function (LinksAtBottomLeft) {
+    LinksAtBottomLeft["tsCs"] = "Ts & Cs";
+    LinksAtBottomLeft["Cookies"] = "Cookies";
+    LinksAtBottomLeft["Privacy"] = "Privacy";
+})(LinksAtBottomLeft = exports.LinksAtBottomLeft || (exports.LinksAtBottomLeft = {}));
+var AccountDropdownItems;
+(function (AccountDropdownItems) {
+    AccountDropdownItems["alertSettings"] = "Alert Settings";
+    AccountDropdownItems["myAccount"] = "My Account";
+    AccountDropdownItems["FAQs"] = "FAQs";
+    AccountDropdownItems["logout"] = "Logout";
+})(AccountDropdownItems = exports.AccountDropdownItems || (exports.AccountDropdownItems = {}));
