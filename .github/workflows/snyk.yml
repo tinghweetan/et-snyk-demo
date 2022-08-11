@@ -1,0 +1,21 @@
+name: Node.js SNYK
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  security:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@master
+      - run: npm install
+      - run: npm i -g snyk
+      - run: snyk auth ''
+      - run: snyk test
+      - run: snyk code
+      - run: snyk monitor
