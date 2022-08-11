@@ -5,17 +5,13 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+    
 jobs:
   security:
-
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@master
-      - run: npm install
-      - run: npm i -g snyk
-      - run: snyk auth ''
-      - run: snyk test
-      - run: snyk code
-      - run: snyk monitor
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
